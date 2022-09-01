@@ -12,8 +12,8 @@ jobs:
   Deployment:
     runs-on: ubuntu-latest
     env:
-      HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-      HEROKU_APP_NAME: ${{ secrets.HEROKU_APP_NAME }}
+      HEROKU_API_KEY: b3dfec7e-3d40-4b28-aa23-2bb1ade38441
+      HEROKU_APP_NAME: aplikasi-bella
     steps:
     - uses: actions/checkout@v2
     - name: Set up Ruby 2.7
